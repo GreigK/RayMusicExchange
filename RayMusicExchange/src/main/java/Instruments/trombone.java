@@ -9,7 +9,6 @@ public class trombone extends Instrument {
         this.getNoOfValves = getNoOfValves;
     }
 
-
     public int getGetNoOfValves() {
         return getNoOfValves;
     }

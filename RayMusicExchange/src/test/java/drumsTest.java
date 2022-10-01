@@ -23,4 +23,14 @@ public class drumsTest {
         assertEquals(150, drums.getSell());
     }
 
+    @Test
+    public void canPlay(){
+        assertEquals("Bang", drums.play());
+    }
+
+    @Test
+    public void canCalculateMarkUp(){
+        assertEquals(50, drums.calculateMarkUp(drums), 0.0);
+    }
+
 }
